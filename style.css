@@ -1,0 +1,258 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:montserrat;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(8, 7, 50);
+}
+#page>img{
+    position: absolute;
+    right: 5%;
+    top: 52%;
+    transform: translateY(-50%);
+    width:50%;
+
+}
+#page>#nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+}
+#centre-nav{
+    display:flex;
+    gap:20px;
+    text-align: center;
+}
+#centre-nav>a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+}
+#nav>input{
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    text-transform: uppercase;
+}
+#text{
+    padding: 30px 50px;
+    position: relative;
+    top:25%;
+    left: 8%;
+    height: 75%;
+    width: 35%;
+    scale: 1.1;
+    color:  #acbcc6;
+}
+#text>h1{
+    font-size: 40px;
+    line-height: 1;
+    margin-top: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+#text>h2{
+    font-size: 25px;
+    line-height: 1;
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+#text>h5{
+    margin-top: 30px;
+    color: #acbcc6;
+    font-size: 17px;
+    font-weight: 600;
+}
+#buttons{
+    position: absolute;
+    left: 30%;
+    bottom: 18%;
+    height: 15%;
+    width: 100%;
+}
+#buttons>button{
+    padding: 10px 22px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    color: #acbcc6;
+}
+#buttons>button>a{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(8, 7, 50);
+}
+#buttons>b2{
+    margin-left: 20px;
+    background-color: rgb(8, 7, 50);
+}
+/* Styles for the Skills section */
+#skills {
+    padding: 50px;
+    background-color:  rgb(8, 7, 50);
+    color:#acbcc6;
+    text-align: center;
+    height: auto;
+
+}
+
+#skills > h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 25%;
+}
+
+.skill-category {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill-category h3 {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.skill-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%;
+    background-color: #acbcc6; /* Change this color */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+#projects {
+    position: relative;
+    height: 100vh; /* Adjusted to fit the content */
+    width: 100vw;
+    background-color: rgb(8, 7, 50);
+    overflow: hidden;
+}
+
+#project {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+}
+
+.project-item {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    color: #acbcc6;
+  }
+  
+  .dropdown-image {
+    width: 100%;
+    height: 150px; /* adjust the height individually for each image */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  
+  .i1 {
+    height: 200px;
+    width: 300px;
+    top: 0%
+ /* adjust the height for the first image */
+  }
+  
+  .i2 {
+    height: 200px; /* adjust the height for the second image */
+  }
+  
+  .i3 {
+    height: 200px; 
+    width: 200px; /* adjust the height for the third image */
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content p {
+    padding: 10px;
+    text-align: center;
+    color:rgb(8, 7, 50);
+  }
+
+#text4>h1{
+    color: #acbcc6;
+    padding: 50px;
+    text-align: center;
+}
+.end{
+    background-color: #acbcc6;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+contact-me p{
+    font-size: 70px;
+}
+contact-me h2{
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+contact-me p{
+    font-size: 70px;
+}
+.contact-me{
+
+    width:100%;
+    height: 570px;
+    font-weight: bold;
+    position: relative;
+}
+
+
