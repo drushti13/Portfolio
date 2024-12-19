@@ -1,2 +1,2 @@
 # Portfolio
- A sleek portfolio website highlighting skills, projects, and achievements with interactive .
+ A sleek portfolio website highlighting skills, projects, and achievements with interactive features.
